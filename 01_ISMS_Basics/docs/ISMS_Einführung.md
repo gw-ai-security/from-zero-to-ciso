@@ -36,7 +36,7 @@ Es umfasst **Personen, Prozesse und IT-Systeme** – mit dem Ziel: **Vertraulich
 
 ---
 
-## Lernaufgabe für dein GitHub-Projekt
+## Lernaufgabe für dieses GitHub-Projekt
 
 1. Erstelle eine eigene Datei `isms-checkliste.md` in `01_ISMS_Basics/templates/`
 2. Liste 10 Punkte, die **in jedem ISMS enthalten sein müssen**
