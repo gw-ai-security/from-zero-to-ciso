@@ -2,48 +2,103 @@
 
 ## Was ist ein ISMS?
 
-Ein **ISMS** ist ein systematischer Ansatz zur Verwaltung sensibler Unternehmensinformationen, damit sie sicher bleiben.  
-Es umfasst **Personen, Prozesse und IT-Systeme** – mit dem Ziel: **Vertraulichkeit, Integrität und Verfügbarkeit** zu gewährleisten.
+Ein **Informationssicherheits-Managementsystem (ISMS)** ist ein strukturierter Ansatz, um sicherzustellen, dass alle Informationen im Unternehmen **geschützt, verfügbar und korrekt** bleiben.
+
+Ziel: Die sogenannten **CIA-Ziele**:
+
+- **Confidentiality (Vertraulichkeit)** – Nur Befugte dürfen zugreifen
+- **Integrity (Integrität)** – Daten dürfen nicht unbemerkt verändert werden
+- **Availability (Verfügbarkeit)** – Die Informationen müssen nutzbar bleiben
+
+Das ISMS beschreibt **Richtlinien, Prozesse, Rollen, Maßnahmen und Dokumentation**, mit denen ein Unternehmen Sicherheitsrisiken identifiziert, bewertet und behandelt.
 
 ---
 
-## Relevanz für Banken & kritische Infrastruktur
+## Warum ist ein ISMS für Banken so wichtig?
 
-- Finanz-IT gehört zur **kritischen Infrastruktur**
-- ISO/IEC 27001 ist oft **verpflichtend** (z. B. durch DORA, NIS2)
-- Ohne ISMS keine Zertifizierung, kein Vertrauen
+### **Beispiel: FinSec GmbH – deine fiktive Bank**
 
----
+> FinSec betreibt Online-Banking, Zahlungsverkehr & Wertpapierhandel mit Cloud-Anbindung.  
+> Ein Ausfall würde Kunden, Aufsichtsbehörden und Geschäftspartner massiv betreffen.
 
-## Aufbau eines ISMS nach ISO/IEC 27001
+Banken gehören zur sogenannten **„kritischen Infrastruktur“** (KRITIS). Das heißt:
 
-### Hauptbestandteile:
-
-1. **Sicherheitsrichtlinie**  
-2. **Risikomanagement-Prozess**  
-3. **Zieldefinition & KPIs**  
-4. **Sicherheitsorganisation & Rollen**  
-5. **Maßnahmenkatalog (Annex A Controls)**  
-6. **Awareness & Schulungen**  
-7. **Audit & kontinuierliche Verbesserung (PDCA-Zyklus)**
+- Sie müssen **strenge gesetzliche Vorschriften** erfüllen
+- Ihre Systeme müssen **extrem zuverlässig** funktionieren
+- Ihre Daten sind ein **Hauptziel für Cyberangriffe**
 
 ---
 
-## Praxis-Szenario: Die fiktive Bank "FinSec GmbH"
+## Relevante Vorschriften (vereinfacht erklärt)
 
-> Du bist Security Officer bei „FinSec GmbH“, einer kleinen Bank mit Cloud-Infrastruktur.  
-> Deine Aufgabe: Schrittweise ein ISMS aufbauen und dokumentieren – zur späteren ISO27001-Zertifizierung.
+| Regulierung | Zweck | Warum relevant für ISMS |
+|------------|-------|--------------------------|
+| **ISO/IEC 27001** | Standard für Informationssicherheit | Basis für ISMS-Struktur |
+| **DORA (EU)** | Digital Operational Resilience Act | Verlangt u.a. ISMS, Risiko- und Notfallpläne |
+| **NIS2 (EU)** | Cybersicherheitsrichtlinie für kritische Infrastruktur | Verpflichtet Banken zu Schutzmaßnahmen |
+| **FMA-Rundschreiben** | Anforderungen der österreichischen Finanzaufsicht | Muss bei ISMS berücksichtigt werden |
+
+---
+
+## Aufbau eines ISMS (nach ISO 27001)
+
+Ein ISMS besteht aus vielen Bausteinen. Hier die wichtigsten:
+
+1. **Informationssicherheitsrichtlinie (Policy)**  
+   – Gibt das Ziel & die Regeln vor
+
+2. **Risikomanagement**  
+   – Risiken erkennen, bewerten, behandeln
+
+3. **Maßnahmenkatalog (Annex A)**  
+   – 93 definierte Sicherheitsmaßnahmen
+
+4. **Rollen & Verantwortlichkeiten**  
+   – z. B. CISO, ISB, Datenschutz, IT-Betrieb
+
+5. **Schulungen & Awareness**  
+   – Alle Mitarbeitenden müssen sensibilisiert sein
+
+6. **Monitoring & KPIs**  
+   – Ist das ISMS wirksam?
+
+7. **Audit & Verbesserung (PDCA-Zyklus)**  
+   – Plan → Do → Check → Act
 
 ---
 
-## Lernaufgabe für dieses GitHub-Projekt
+## Praxis-Szenario: FinSec GmbH
 
-1. Erstelle eine eigene Datei `isms-checkliste.md` in `01_ISMS_Basics/templates/`
-2. Liste 10 Punkte, die **in jedem ISMS enthalten sein müssen**
-3. Verwende dafür die obigen Inhalte (und/oder recherchiere auf `iso.org` oder `bsi.bund.de`)
-4. Committe die Datei – wir bauen daraus im nächsten Schritt eine **richtige Policy-Vorlage**
+Die FinSec GmbH will ISO 27001 zertifiziert werden. Als Berufseinsteiger bekommst du den Auftrag, die Grundlagen für das ISMS zu schaffen.
+
+### Deine Aufgaben:
+- Eine Checkliste mit ISMS-Komponenten erstellen
+- Eine erste Policy vorbereiten
+- Risiken beschreiben (z. B. Ransomware-Angriff)
+- Maßnahmen vorschlagen
+- Später: Reporting, Kontrolle, Auditvorbereitung
 
 ---
+
+## Beispiel-Risiko: Ransomware-Angriff
+
+Ein Mitarbeiter öffnet eine Phishing-Mail. Die Zahlungsverkehrssysteme werden verschlüsselt.
+
+**Auswirkungen:**
+- Kein Geldtransfer möglich
+- Kundenbeschwerden
+- Meldepflicht an FMA & Datenschutz
+
+**Was hilft?**
+- Awareness-Trainings
+- Technische Schutzmaßnahmen
+- Vorab geplante Notfallprozesse (BCP)
+
+Siehe dazu: `risikoszenario-ransomware.md`
+
+---
+
+
 
 
 
