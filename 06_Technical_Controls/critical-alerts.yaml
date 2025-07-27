@@ -1,0 +1,26 @@
+# Kritische SIEM-Alerts – YAML-Konfiguration
+
+alerts:
+  - id: "ALERT-001"
+    name: "Anmeldung außerhalb EU"
+    severity: "high"
+    condition: "SignInLocation not in EU"
+    action: "send_email, force_mfa_reset"
+
+  - id: "ALERT-002"
+    name: "RBAC Änderung ohne Ticket"
+    severity: "high"
+    condition: "AdminRoleChange and not linked to ChangeTicket"
+    action: "open_ticket, notify_security"
+
+  - id: "ALERT-003"
+    name: "C2-Domain Detektion"
+    severity: "high"
+    condition: "DNSQuery matches C2 threat list"
+    action: "isolate_device, alert_soc"
+
+  - id: "ALERT-004"
+    name: "Mehrfach fehlgeschlagene Backups"
+    severity: "medium"
+    condition: "BackupFailureCount > 3 in 24h"
+    action: "create_ticket, escalate_to_IT"
