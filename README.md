@@ -20,16 +20,18 @@ Ziel ist der eigenständige Aufbau und die Auditierung eines vollständigen **IS
 
 ## Struktur des Repositories
 
+```plaintext
 from-zero-to-ciso/
 │
-├── 01_ISMS_Basics/ # ISO27001 Grundlagen, Policy, Risk, Audit
-├── 02_Risk_Management/ # Methoden zur Risikobewertung, Szenarien, Scoring
-├── 03_Awareness_Campaign/ # Security-Schulungen, Phishing-Konzepte, LMS
+├── 01_ISMS_Basics/          # ISO27001 Grundlagen, Policy, Risk, Audit
+├── 02_Risk_Management/      # Methoden zur Risikobewertung, Szenarien, Scoring
+├── 03_Awareness_Campaign/   # Security-Schulungen, Phishing-Konzepte, LMS
 ├── 04_Compliance_Framework/ # Mapping von ISO, DORA, DSGVO, FMA, EBA, MaRisk
-├── 05_Audit_Simulation/ # Vorbereitung auf interne/externe Audits
-├── 99_Capstone_ISMS/ # Finales Gesamtsystem für ein fiktives Finanzinstitut
-├── glossary/ # Glossar aller Begriffe, Abkürzungen & Frameworks
-└── README.md # Diese Projektübersicht
+├── 05_Audit_Simulation/     # Vorbereitung auf interne/externe Audits
+├── 99_Capstone_ISMS/        # Finales Gesamtsystem für ein fiktives Finanzinstitut
+├── glossary/                # Glossar aller Begriffe, Abkürzungen & Frameworks
+└── README.md                # Diese Projektübersicht
+
 
 --
 
