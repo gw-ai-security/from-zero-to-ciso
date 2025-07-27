@@ -5,7 +5,7 @@ Dieses Modul dokumentiert das Awareness-Programm der SecureBank AG zur Stärkung
 
 ---
 
-## 📁 Ordnerstruktur
+## Ordnerstruktur
 
 ```plaintext
 03_Awareness_Campaign/
@@ -17,7 +17,7 @@ Dieses Modul dokumentiert das Awareness-Programm der SecureBank AG zur Stärkung
 
 ---
 
-## 📌 Inhalte
+## Inhalte
 
 - `phishing-campaign-plan.md` → Plan für simulierte Angriffe
 - `training-matrix.xlsx` → Schulungstypen pro Rolle
@@ -25,7 +25,7 @@ Dieses Modul dokumentiert das Awareness-Programm der SecureBank AG zur Stärkung
 
 ---
 
-## 🔗 Bezüge zu anderen Modulen
+## Bezüge zu anderen Modulen
 
 | Modul | Verbindung |
 |-------|------------|
