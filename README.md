@@ -1,81 +1,100 @@
-# from-zero-to-ciso  
-**Structured Learning Journey: Becoming an IT Security & Compliance Officer in Finance & Critical Infrastructure**
+# from-zero-to-ciso – IT Security & Compliance Lernprojekt
+
+## Projektziel
+
+Dieses Repository dient der systematischen Vorbereitung auf die Rolle **„IT-Security & Compliance Officer“** im Finanz-/Versicherungsbereich – z. B. bei **Raiffeisen Informatik**, **FMA-regulierten Banken** oder KRITIS-Infrastrukturen.
+
+Schwerpunkt:
+- Aufbau eines vollständigen, ISO/IEC 27001-konformen ISMS
+- Integration regulatorischer Anforderungen (DORA, DSGVO, FMA)
+- Technische Umsetzung (Azure, SIEM, IAM, CSPM)
+- Auditvorbereitung und Beweissicherung
+- Didaktisch aufbereiteter Lernpfad gemäß Blooms Taxonomie
 
 ---
 
-## Zielsetzung
-
-Dieses Repository dokumentiert meine systematische Vorbereitung auf die Position **IT-Security & Compliance Officer**, mit Fokus auf regulierte Branchen wie Banken, Versicherungen und kritische Infrastruktur.  
-Ziel ist der eigenständige Aufbau und die Auditierung eines vollständigen **ISMS nach ISO/IEC 27001**, erweitert um **DORA**, **NIS2**, **DSGVO** und nationale Anforderungen wie die **FMA-Rundschreiben**.
-
----
-
-## Zielunternehmen & Use Case
-
-- **Zielposition:** IT-Security & Compliance Officer 
-- **Zielunternehmen:** Banken und Versciherungen
-- **Fokus:** Banking-IT, Cloud-Infrastruktur, Audit-Readiness
-
----
-
-## Struktur des Repositories
+## Projektstruktur (Module)
 
 ```plaintext
 from-zero-to-ciso/
-│
-├── 01_ISMS_Basics/          # ISO27001 Grundlagen, Policy, Risk, Audit
-├── 02_Risk_Management/      # Methoden zur Risikobewertung, Szenarien, Scoring
-├── 03_Awareness_Campaign/   # Security-Schulungen, Phishing-Konzepte, LMS
-├── 04_Compliance_Framework/ # Mapping von ISO, DORA, DSGVO, FMA, EBA, MaRisk
-├── 05_Audit_Simulation/     # Vorbereitung auf interne/externe Audits
-├── 99_Capstone_ISMS/        # Finales Gesamtsystem für ein fiktives Finanzinstitut
-├── glossary/                # Glossar aller Begriffe, Abkürzungen & Frameworks
-└── README.md                # Diese Projektübersicht
-
+├── 00_Learning_Path/             # Didaktischer Einstieg, Lernpfad, Reflexion
+├── 01_ISMS_Basics/               # ISO27001 Policy, Risiko, Awareness, Audit
+├── 02_Risk_Management/           # Risiko-Methodik, Register, Szenarien
+├── 03_Awareness_Campaign/        # Awareness-Pläne, Trainings, Phishing
+├── 04_Compliance_Framework/      # Mapping ISO, DORA, DSGVO, FMA, EBA, MaRisk
+├── 05_Audit_Simulation/          # Auditplan, Gap-Analyse, Interview
+├── 06_Technical_Controls/        # IAM, SIEM, DLP, CSPM, Zero Trust
+├── 07_Continuous_Improvement/    # KPIs, PDCA, Lessons Learned, Maturity
+├── case_study/                   # Fallstudie: SecureBank AG
+├── glossary/                     # Glossar aller Begriffe & Abkürzungen
+└── README.md                     # Projektübersicht & Einstieg
 ```
----
-
-## Lernstrategie
-
-| Lernziel                            | Umsetzung |
-|-------------------------------------|-----------|
-| ISMS verstehen & dokumentieren      | `01_ISMS_Basics` (Policy, Kontrollen, Reifegrad) |
-| Audit-Readiness herstellen          | Mini-Audit, GAP-Analyse, Stakeholder-Briefing |
-| Compliance-Standards umsetzen       | `04_Compliance_Framework` (DORA, DSGVO, FMA) |
-| Cloud Security integrieren          | `azure-security-framework.md` (Zero Trust, PIM, SIEM) |
-| Transferfähigkeit sichern           | `isms-interviewfragen.md`, `stakeholder-briefing.md` |
 
 ---
 
-## Wichtige Kernartefakte
+## Phasen & Modulübersicht
 
-| Datei                             | Beschreibung |
-|----------------------------------|--------------|
-| `isms-policy.md`                 | ISO 27001-konforme ISMS-Policy mit KPIs & Data Classification |
-| `control-selection-matrix.md`    | Auswahl & Priorisierung der Annex A Controls |
-| `fma-compliance-mapping.md`      | Mapping ISO ↔ DORA ↔ FMA ↔ DSGVO |
-| `business-continuity.md`         | RTO/RPO-Definition & Notfallplanung |
-| `incident-response-plan.md`      | Strukturierter Ablauf für sicherheitsrelevante Vorfälle |
-| `isms-mini-audit.md`             | GAP-Analyse & Self-Assessment |
-| `isms-interviewfragen.md`        | Transferfragen zur Interviewvorbereitung |
-| `itsec-compliance-glossar.md`    | Nachschlagewerk für alle Fachbegriffe |
+### Phase 1: Verstehen (00, 01)
+- Aufbau ISMS
+- Ziele: Policy, Rollen, Scope, Controls
+- Reflexion: Was ist der Zweck eines ISMS?
 
----
+### Phase 2: Anwenden (02, 03)
+- Risikoanalyse, Awareness-Konzepte
+- Tools: Risiko-Register, Phishing-Kampagne, LMS
+- Reflexion: Wie bewertet man Residual Risk?
 
-## Highlights für Audit & Interview
+### Phase 3: Analysieren & Bewerten (04, 05)
+- Compliance-Mapping, GAP-Analyse, Auditlogik
+- Reflexion: Welche Controls sind regulatorisch relevant?
 
-- Audit-ready Dokumentation  
-- DORA-konforme Incident-Meldung (≤ 2h)  
-- SMART KPIs (z. B. Phishing-Rate, Recovery-Zeiten)  
-- Banking-spezifische Bedrohungsszenarien  
-- Azure Cloud Security mit Microsoft Defender, PIM, Sentinel
+### Phase 4: Erschaffen (06, 07)
+- Technische Umsetzung: SIEM, Azure, CSPM
+- PDCA, KPI-Dashboards, Lessons Learned
+- Reflexion: Kann ich ein ISMS auditfähig präsentieren?
 
 ---
 
-## Lizenz
+## Fallstudie: SecureBank AG
 
-Dieses Repository steht unter der MIT License.  
-Alle Inhalte wurden zu Lern- und Demonstrationszwecken erstellt. Sie spiegeln reale Umsetzungsanforderungen in der Finanz-IT wider und können als Vorlage für Audits, Bewerbungen oder GRC-Projekte dienen.
+Die gesamte Projektreihe orientiert sich an einem realistischen Szenario einer fiktiven Bank mit kritischer Infrastruktur.  
+→ Siehe: `case_study/securebank-profile.md`
 
 ---
 
+## Wichtige Artefakte & Templates
+
+- `isms-policy.md` – Managementrichtlinie nach ISO27001
+- `control-selection-matrix.md` – Annex A Auswahl & Risikobezug
+- `isms-mini-audit.md` – Auditvorbereitung & Reifeprüfung
+- `awareness-program.md` – LMS-gestütztes Trainingskonzept
+- `siem-use-case-library.md` – Use Cases für Microsoft Sentinel
+- `lessons-learned-matrix.md` – GAP-basiertes Verbesserungsprotokoll
+
+---
+
+## Glossar & Checklisten
+
+Siehe:  
+- `glossary/itsec-compliance-glossar.md`  
+- `checklisten/` – ISO27001-relevante Templates
+
+---
+
+## Lernansatz & Transfer
+
+Alle Inhalte folgen der **Bloomschen Taxonomie**:
+- Wissen verstehen → anwenden → bewerten → erschaffen
+- Mit Reflexionsfragen pro Modul (siehe `learning-journal-template.md`)
+- Interviewvorbereitung durch `isms-interviewfragen.md`
+
+---
+
+## Ziel: Audit- & Interviewreife
+
+Am Projektende kannst du:
+- Ein vollständiges ISMS dokumentieren und auditieren
+- DORA, DSGVO und FMA-relevante Nachweise liefern
+- Awareness- und Risikoprogramme vorweisen
+- Technische Sicherheitsmaßnahmen begründen
+- Fachinterviews und Audits souverän meistern
