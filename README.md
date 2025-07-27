@@ -32,8 +32,8 @@ from-zero-to-ciso/
 ├── glossary/                # Glossar aller Begriffe, Abkürzungen & Frameworks
 └── README.md                # Diese Projektübersicht
 
-
---
+```
+---
 
 ## Lernstrategie
 
