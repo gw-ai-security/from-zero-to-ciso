@@ -17,7 +17,6 @@ Schwerpunkt:
 
 ```plaintext
 from-zero-to-ciso/
-├── 00_Learning_Path/             # Didaktischer Einstieg, Lernpfad, Reflexion
 ├── 01_ISMS_Basics/               # ISO27001 Policy, Risiko, Awareness, Audit
 ├── 02_Risk_Management/           # Risiko-Methodik, Register, Szenarien
 ├── 03_Awareness_Campaign/        # Awareness-Pläne, Trainings, Phishing
