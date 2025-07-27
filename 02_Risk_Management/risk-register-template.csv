@@ -1,0 +1,4 @@
+Risk ID,Risiko,Asset,Likelihood (1–5),Impact (1–5),Score,Behandlung,Status
+R001,Phishing-Angriff auf Mitarbeitende,Mitarbeiter-Accounts,4,4,16,Awareness Training,In Planung
+R002,Ransomware im Zahlungsverkehr,Zahlungssystem,5,5,25,Backup + Endpoint Protection,In Umsetzung
+R003,Externe API ohne Sicherheitsprüfung,Third-Party API,3,4,12,Lieferantencheck + Authentifizierung,Offen

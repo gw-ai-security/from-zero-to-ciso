@@ -1,0 +1,4 @@
+Risk ID,Ursprünglicher Score,Control Maßnahme,Wirksamkeit (0–1),Residual Risk Score
+R001,16,Awareness Kampagne,0.5,8.0
+R002,25,EDR + Restore-Tests,0.7,7.5
+R003,12,MFA + API Gateway,0.6,4.8

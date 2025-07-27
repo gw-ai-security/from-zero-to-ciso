@@ -1,0 +1,4 @@
+Risiko,Impact (1–5),Likelihood (1–5),Score,Control,Verantwortlich
+Datenverlust bei Migration,5,2,10,Backup vorher + Restore-Test,IT-Leitung
+Fehlkonfiguration IAM,4,3,12,IAM Review + Rollenmodell,CISO
+Vendor Lock-In,3,4,12,Exit-Strategie vertraglich fixieren,Legal / Einkauf

@@ -1,0 +1,4 @@
+Threat ID,Bedrohung,Kategorie,Beschreibung,Relevante Assets
+T001,Phishing-Angriff,Menschlich,E-Mail-Spoofing zur Credential-Abfrage,"Mailserver, Endgeräte"
+T002,Ransomware,Technisch,Verschlüsselung interner Systeme mit Lösegeldforderung,"Core Banking, File Shares"
+T003,SQL-Injection auf Kundenportal,Technisch,Angriff auf öffentlich erreichbare Login-Formulare,"Webserver, Kundendatenbank"
