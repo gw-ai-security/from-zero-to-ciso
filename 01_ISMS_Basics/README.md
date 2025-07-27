@@ -6,7 +6,7 @@ Es beinhaltet die zentralen Richtlinien, Rollen, Controls und Bewertungsgrundlag
 
 ---
 
-## 📁 Inhalte & Struktur
+## Inhalte & Struktur
 
 ```plaintext
 01_ISMS_Basics/
@@ -29,7 +29,7 @@ Es beinhaltet die zentralen Richtlinien, Rollen, Controls und Bewertungsgrundlag
 
 ---
 
-## 🔗 Relevante Normen & Verordnungen
+## Relevante Normen & Verordnungen
 
 | Quelle | Anwendung |
 |--------|-----------|
@@ -40,7 +40,7 @@ Es beinhaltet die zentralen Richtlinien, Rollen, Controls und Bewertungsgrundlag
 
 ---
 
-## 🧩 Verbindungen zu anderen Modulen
+## Verbindungen zu anderen Modulen
 
 | Modul | Verbindung |
 |-------|------------|
@@ -52,7 +52,7 @@ Es beinhaltet die zentralen Richtlinien, Rollen, Controls und Bewertungsgrundlag
 
 ---
 
-## ✅ Zielkompetenzen nach Bearbeitung
+## Zielkompetenzen nach Bearbeitung
 
 Nach Abschluss dieses Moduls kannst du:
 
