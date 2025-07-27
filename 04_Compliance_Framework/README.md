@@ -10,7 +10,7 @@ Der Fokus liegt auf:
 
 ---
 
-## 📁 Ordnerstruktur
+## Ordnerstruktur
 
 ```plaintext
 04_Compliance_Framework/
@@ -26,16 +26,16 @@ Der Fokus liegt auf:
 
 ---
 
-## 🔍 Inhalt
+## Inhalt
 
-### 📌 Mapping (Ordner: `mapping/`)
+### Mapping (Ordner: `mapping/`)
 - `dora-compliance-mapping.md`  
   → Zuordnung von Artikeln aus der DORA-Verordnung zu ISO-Controls und Maßnahmen
 
 - `dsgvo-compliance-mapping.xlsx` / `.csv`  
   → Strukturierte DSGVO-Artikel-Zuordnung zu ISO und Umsetzungsnachweisen
 
-### 📌 Datenschutz (Ordner: `privacy/`)
+### Datenschutz (Ordner: `privacy/`)
 - `privacy-control-matrix.md`  
   → Technische & organisatorische Maßnahmen zu DSGVO-Artikeln
 
@@ -44,7 +44,7 @@ Der Fokus liegt auf:
 
 ---
 
-## 🔗 Verbindung zu anderen Modulen
+## Verbindung zu anderen Modulen
 
 | Modul | Verbindung |
 |-------|------------|
@@ -54,7 +54,7 @@ Der Fokus liegt auf:
 
 ---
 
-## ✅ Zielkompetenzen
+## Zielkompetenzen
 
 Nach Bearbeitung dieses Moduls kannst du:
 
