@@ -1,8 +1,8 @@
 # IT-Security & Compliance Glossar  
 **Projektübergreifende Begriffe & Abkürzungen**  
 **GitHub-Projekt: from-zero-to-ciso**  
-**Version:** 1.0  
-**Stand:** 2025-07-26  
+**Version:** 1.1  
+**Stand:** 2025-07-27  
 **Zielgruppe:** Berufseinsteiger in IT-Security, Compliance & Finanz-IT
 
 ---
@@ -10,152 +10,194 @@
 ## A
 
 ### Annex A (ISO 27001)
-**Definition:** Maßnahmenkatalog mit 93 Controls in vier Kategorien.  
-**Wichtigkeit:** Grundlage für Sicherheitsmaßnahmen im ISMS.  
-**Projektkontext:** `control-selection-matrix.md`
+Maßnahmenkatalog mit 93 Controls in vier Kategorien.  
+→ `control-selection-matrix.md`
 
-### Awareness
-**Definition:** Sicherheitsbewusstsein bei Mitarbeitenden.  
-**Wichtigkeit:** Pflichtanforderung nach ISO 27001 & FMA.  
-**Projektkontext:** `isms-policy.md`, `stakeholder-briefing.md`
+### Audit Trail  
+Protokollierung sicherheitsrelevanter Ereignisse für Nachweiszwecke.  
+→ `isms-mini-audit.md`, `sentinel-config.json`
+
+### Awareness  
+Sicherheitsbewusstsein bei Mitarbeitenden.  
+→ `awareness-program.md`, `stakeholder-briefing.md`
 
 ---
 
 ## B
 
-### BCP (Business Continuity Plan)
-**Definition:** Notfallplan zur Wiederherstellung kritischer Systeme.  
-**Wichtigkeit:** DORA Art. 11, ISO A.8.22, FMA-Pflicht.  
-**Projektkontext:** `business-continuity.md`, `bcp-testprotokoll-template.md`
+### BCP (Business Continuity Plan)  
+Notfallplan zur Wiederherstellung kritischer Systeme.  
+→ `business-continuity.md`
 
-### BIA (Business Impact Analysis)
-**Definition:** Bewertung der Auswirkungen von Systemausfällen.  
-**Wichtigkeit:** Grundlage für RTO/RPO und Priorisierung.  
-**Projektkontext:** `business-continuity.md` (Tabelle 3)
+### BIA (Business Impact Analysis)  
+Bewertung der Auswirkungen von Ausfällen.  
+→ `business-continuity.md`
 
 ---
 
 ## C
 
-### CISO (Chief Information Security Officer)
-**Definition:** Verantwortliche Führungsrolle für ISMS und Sicherheitsstrategie.  
-**Wichtigkeit:** Zentrale Figur für Policy, Audit und Incident Response.  
-**Projektkontext:** `isms-policy.md`, `incident-response-plan.md`
+### CISO (Chief Information Security Officer)  
+Verantwortlich für Strategie, ISMS und Sicherheit.  
+→ `isms-policy.md`, `incident-response-plan.md`
 
-### Control (Sicherheitsmaßnahme)
-**Definition:** Technische oder organisatorische Maßnahme zur Risikobehandlung.  
-**Wichtigkeit:** Kern von ISO 27001 Annex A.  
-**Projektkontext:** `control-selection-matrix.md`, `control-effectiveness-metrics.md`
+### Control (Sicherheitsmaßnahme)  
+Technisch/organisatorisch zur Risikobehandlung.  
+→ `control-selection-matrix.md`, `control-effectiveness-metrics.md`
 
 ---
 
 ## D
 
-### DORA (Digital Operational Resilience Act)
-**Definition:** EU-Verordnung für digitale Resilienz in Finanzunternehmen.  
-**Wichtigkeit:** Verlangt ISMS, BCP, Incident Response, Meldefristen.  
-**Projektkontext:** `isms-policy.md`, `fma-compliance-mapping.md`, `incident-response-plan.md`
+### DORA (Digital Operational Resilience Act)  
+EU-Verordnung für digitale Resilienz im Finanzsektor.  
+→ `isms-policy.md`, `fma-compliance-mapping.md`
 
-### DSGVO / GDPR
-**Definition:** Datenschutzgrundverordnung (EU).  
-**Wichtigkeit:** Regelt Schutz personenbezogener Daten, Meldefristen (72h).  
-**Projektkontext:** `incident-response-plan.md`, `fma-compliance-mapping.md`
+### DSGVO / GDPR  
+Datenschutzgrundverordnung der EU.  
+→ `incident-response-plan.md`, `fma-compliance-mapping.md`
 
 ---
 
 ## F
 
-### FMA (Finanzmarktaufsicht Österreich)
-**Definition:** Nationale Aufsichtsbehörde für Banken, Versicherungen.  
-**Wichtigkeit:** Veröffentlicht verbindliche Rundschreiben (z. B. IT 2019).  
-**Projektkontext:** `fma-compliance-mapping.md`
+### FMA (Finanzmarktaufsicht Österreich)  
+Nationale Aufsicht für Banken, Versicherungen.  
+→ `fma-compliance-mapping.md`
+
+---
+
+## G
+
+### GRC (Governance, Risk, Compliance)  
+Rahmen zur Steuerung von Sicherheit, Risiko & Regeltreue.  
+→ `isms-policy.md`, `lessons-learned-matrix.md`
 
 ---
 
 ## I
 
-### ISB (Informationssicherheitsbeauftragter)
-**Definition:** Operative Rolle zur Umsetzung und Pflege des ISMS.  
-**Wichtigkeit:** Berichtet an CISO oder Geschäftsleitung.  
-**Projektkontext:** `isms-policy.md`
+### Incident Response  
+Strukturierte Reaktion auf Sicherheitsvorfälle.  
+→ `incident-response-plan.md`
 
-### ISMS (Information Security Management System)
-**Definition:** Systematischer Rahmen zur Steuerung der Informationssicherheit.  
-**Wichtigkeit:** Grundlage für Zertifizierung nach ISO 27001.  
-**Projektkontext:** `isms-policy.md`, `ISMS_Einführung.md`, `isms-mini-audit.md`
+### ISB (Informationssicherheitsbeauftragter)  
+Operative Umsetzung & Pflege des ISMS.  
+→ `isms-policy.md`
 
-### Incident Response
-**Definition:** strukturierter Ablauf zur Reaktion auf Sicherheitsvorfälle.  
-**Wichtigkeit:** Pflicht nach ISO, DORA, DSGVO.  
-**Projektkontext:** `incident-response-plan.md`, `isms-policy.md`
+### ISMS (Information Security Management System)  
+Rahmenwerk für strukturierte Informationssicherheit.  
+→ `isms-policy.md`, `ISMS_Einführung.md`
 
 ---
 
 ## K
 
-### KPI (Key Performance Indicator)
-**Definition:** Leistungskennzahl zur Überwachung der Sicherheitsziele.  
-**Wichtigkeit:** Erlaubt Managementsteuerung und Auditnachweis.  
-**Projektkontext:** `control-effectiveness-metrics.md`, `isms-policy.md` §8
+### KPI (Key Performance Indicator)  
+Messwert zur Wirksamkeit und Steuerung.  
+→ `control-effectiveness-metrics.md`
+
+---
+
+## L
+
+### Least Privilege  
+Zugriff nur auf notwendige Ressourcen.  
+→ `azure-security-framework.md`
 
 ---
 
 ## M
 
-### MFA (Multi-Factor Authentication)
-**Definition:** Zugriffsschutz mit zwei oder mehr Faktoren.  
-**Wichtigkeit:** Azure-Security-Baseline, Pflicht in Finanz-IT.  
-**Projektkontext:** `azure-security-framework.md`
+### MFA (Multi-Factor Authentication)  
+Zugriffsschutz mit mehreren Faktoren.  
+→ `azure-security-framework.md`
 
 ---
 
 ## N
 
-### NIS2 (EU Network and Information Security Directive)
-**Definition:** EU-Richtlinie zur Cybersicherheit kritischer Infrastrukturen.  
-**Wichtigkeit:** Verlangt Sicherheitsmaßnahmen und Meldepflichten.  
-**Projektkontext:** `fma-compliance-mapping.md`, `isms-policy.md`
+### NIS2 (EU-Richtlinie)  
+Cybersicherheitsrichtlinie für kritische Infrastrukturen.  
+→ `fma-compliance-mapping.md`
+
+---
+
+## O
+
+### Offboarding  
+Prozess zur Entziehung von Zugriffsrechten beim Austritt.  
+→ `control-effectiveness-metrics.md`
 
 ---
 
 ## P
 
-### PDCA-Zyklus (Plan-Do-Check-Act)
-**Definition:** Zyklus zur kontinuierlichen Verbesserung eines Managementsystems.  
-**Wichtigkeit:** Kernmodell von ISO 27001.  
-**Projektkontext:** `isms-policy.md`, `isms-mini-audit.md`
+### PDCA-Zyklus (Plan-Do-Check-Act)  
+Zyklus zur kontinuierlichen ISMS-Verbesserung.  
+→ `isms-mini-audit.md`
+
+---
+
+## Q
+
+### Qualitative Risikoanalyse  
+Risikoanalyse mit Scoring (z. B. 5x5 Matrix).  
+→ `isms-mini-audit.md`, `risk-register-template.xlsx`
 
 ---
 
 ## R
 
-### RPO (Recovery Point Objective)
-**Definition:** Maximal akzeptabler Datenverlust (Zeiteinheit).  
-**Projektkontext:** `business-continuity.md`
+### RPO (Recovery Point Objective)  
+Maximal akzeptabler Datenverlust in Minuten/Stunden.  
+→ `business-continuity.md`
 
-### RTO (Recovery Time Objective)
-**Definition:** Maximal zulässige Ausfallzeit bis zur Wiederherstellung.  
-**Projektkontext:** `business-continuity.md`
+### RTO (Recovery Time Objective)  
+Zeit bis zur Wiederherstellung nach Ausfall.  
+→ `business-continuity.md`
 
 ---
 
 ## S
 
-### SIEM (Security Information and Event Management)
-**Definition:** Tool zur Echtzeitanalyse von Sicherheitsereignissen.  
-**Wichtigkeit:** DORA-relevant, ISO A.8.15.  
-**Projektkontext:** `azure-security-framework.md`, `control-selection-matrix.md`
+### SIEM (Security Information and Event Management)  
+System zur Erkennung & Analyse sicherheitsrelevanter Logs.  
+→ `siem-use-case-library.md`
+
+---
+
+## T
+
+### Threat Scenario  
+Beschriebenes realistisches Angriffsszenario.  
+→ `cloud-migration-risk-assessment-example.xlsx`
+
+---
+
+## U
+
+### Use Case (SIEM)  
+Spezifisches Ereignismuster zur Erkennung im SIEM.  
+→ `siem-use-case-library.md`, `critical-alerts.yaml`
 
 ---
 
 ## V
 
-### Vulnerability Management
-**Definition:** Prozess zur Erkennung, Bewertung und Beseitigung von Schwachstellen.  
-**Wichtigkeit:** Elementarer Teil jedes ISMS.  
-**Projektkontext:** (späteres Modul)
+### Vulnerability Management  
+Identifikation & Behandlung technischer Schwachstellen.  
+→ `control-effectiveness-metrics.md`, `lessons-learned-matrix.md`
 
 ---
 
-**Nächste Aktualisierung:** bei jedem neuen Begriff im Projekt  
+## Z
+
+### Zero Trust Architecture  
+Prinzip: "Never trust, always verify". Kein implizites Vertrauen.  
+→ `azure-security-framework.md`
+
+---
+
+**Letzte Aktualisierung:** 2025-07-27  
 **Autor:** George K.  
